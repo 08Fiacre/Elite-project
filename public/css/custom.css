@@ -1,0 +1,226 @@
+
+element.style {
+}
+body:not(.layout-fixed) .main-sidebar {
+    height: inherit;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+}
+.elevation-4 {
+    box-shadow: 0 14px 28px rgba(1,0,0,.25),0 10px 10px rgba(0,0,0,.22)!important;
+}
+[class*=sidebar-dark-] {
+    background-color: #315358 !important;
+}
+.main-sidebar {
+    height: 100vh;
+    overflow-y: hidden;
+    z-index: 1038;
+}
+.main-sidebar, .main-sidebar::before {
+    transition: margin-left .3s ease-in-out,width .3s ease-in-out;
+    width: 250px;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+aside {
+    display: block;
+}
+
+body:not(.layout-fixed) .main-sidebar {
+    height: inherit;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+}
+.elevation-4 {
+    box-shadow: 0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22)!important;
+}
+[class*=sidebar-dark-] {
+    background-color: #343a40;
+}
+.main-sidebar {
+    height: 100vh;
+    overflow-y: hidden;
+    z-index: 1038;
+}
+.main-sidebar, .main-sidebar::before {
+    transition: margin-left .3s ease-in-out,width .3s ease-in-out;
+    width: 250px;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+feuille de style de l’agent utilisateur
+aside {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #315358;
+}
+
+/*Ades et Logo*/
+
+[class*=sidebar-dark] .brand-link, [class*=sidebar-dark] .brand-link .pushmenu {
+    color: rgba(255,255,255,.8);
+}
+[class*=sidebar-dark] .brand-link {
+    border-bottom: 1px solid #4b545c;
+}
+.brand-link {
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: .8125rem .5rem;
+    transition: width .3s ease-in-out;
+    white-space: nowrap;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #315358;
+}
+
+/*Logo Ades*/
+
+element.style {
+    opacity: .8;
+}
+.brand-link .brand-image {
+    float: none;
+    line-height: .8;
+    margin-left: .8rem;
+    margin-right: .5rem;
+    margin-top: -3px;
+    max-height: 33px;
+    width: 100px; 
+    height: 300px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+/*Home*/
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #141111;
+    color: #fff;
+}
+
+/*Pushmenu*/
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+/*conteneur*/
+
+.content-wrapper {
+    background-color: #315358;
+}
+
+/*HEADER*/
+
+.navbar-white {
+    background-color: #315358;
+    color: #1f2d3d;
+}
+
+/*Footer*/
+
+.main-footer {
+    background-color: #315358;
+    border-top: 1px solid #dee2e6;
+    color: #869099;
+    padding: 1rem;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link {
+    color: #ffffff;
+}
+
+
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    height: 80px;
+    border-radius: 50%;
+}
+.control-sidebar-dark, .control-sidebar-dark .nav-link, .control-sidebar-dark a {
+    color: #000000;
+}
+.control-sidebar-dark {
+    background-color: #ffffff;
+    font-size: 20px;
+    /*border: 2px solid #000; padding: 10px;*/
+    border: 8px; 
+    padding: 10px; 
+    display: inline-block;
+}
+.info a:hover {
+    color: inherit; /* Utilisez la couleur héritée (la couleur par défaut) au survol */
+}
+
+
+
+
+.fa-angle-icon-left::before {
+    content: "\f104";
+}
+.fa-angle-icon-left::before {
+    content: "\f104";
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
